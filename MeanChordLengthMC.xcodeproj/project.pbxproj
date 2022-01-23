@@ -13,6 +13,8 @@
 		43422654279D395A005D59F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43422642279D3959005D59F8 /* ContentView.swift */; };
 		43422655279D395A005D59F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43422643279D395A005D59F8 /* Assets.xcassets */; };
 		43422656279D395A005D59F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43422643279D395A005D59F8 /* Assets.xcassets */; };
+		43422660279D3D58005D59F8 /* MeanChordLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4342265F279D3D58005D59F8 /* MeanChordLength.swift */; };
+		43422661279D3D58005D59F8 /* MeanChordLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4342265F279D3D58005D59F8 /* MeanChordLength.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		43422648279D395A005D59F8 /* MeanChordLengthMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeanChordLengthMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4342264E279D395A005D59F8 /* MeanChordLengthMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeanChordLengthMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43422650279D395A005D59F8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4342265F279D3D58005D59F8 /* MeanChordLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeanChordLength.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +57,7 @@
 		43422640279D3959005D59F8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				4342265F279D3D58005D59F8 /* MeanChordLength.swift */,
 				43422641279D3959005D59F8 /* MeanChordLengthMCApp.swift */,
 				43422642279D3959005D59F8 /* ContentView.swift */,
 				43422643279D395A005D59F8 /* Assets.xcassets */,
@@ -177,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43422653279D395A005D59F8 /* ContentView.swift in Sources */,
+				43422660279D3D58005D59F8 /* MeanChordLength.swift in Sources */,
 				43422651279D395A005D59F8 /* MeanChordLengthMCApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43422654279D395A005D59F8 /* ContentView.swift in Sources */,
+				43422661279D3D58005D59F8 /* MeanChordLength.swift in Sources */,
 				43422652279D395A005D59F8 /* MeanChordLengthMCApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
